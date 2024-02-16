@@ -1,0 +1,43 @@
+{
+  "ModId": "SPC.Stream.Emulator",
+  "ModName": "SPC File Emulator for File Emulation Framework",
+  "ModAuthor": "morgana",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Emulates SPC files",
+  "ModDll": "SPC.Stream.Emulator.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/SPC.Stream.Emulator.dll",
+  "ModR2RManagedDll64": "x64/SPC.Stream.Emulator.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": true,
+  "ReleaseMetadataFileName": "SPC.Stream.Emulator.ReleaseMetadata.json",
+  "PluginData": {
+      "GitHubDependencies": {
+          "IdToConfigMap": {
+            "reloaded.sharedlib.hooks": {
+              "Config": {
+                "UserName": "Sewer56",
+                "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+                "UseReleaseTag": true,
+                "AssetFileName": "reloaded.sharedlib.hooks.zip"
+              },
+              "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+            }
+          }
+      },
+    "GitHubRelease": {
+      "UserName": "morgana-x",
+      "RepositoryName": "Spc-File-Emulator-ReloadedII",
+      "UseReleaseTag": false,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": true,
+  "ModDependencies": [
+    "reloaded.universal.fileemulationframework"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [],
+  "ProjectUrl": ""
+}
